@@ -9,7 +9,7 @@ export default class HelloMessage extends React.Component{
 
         return (
             <div>
-                Bienvenido, {name}
+                Bienvenido,<br/> Nombre: {name}
             </div>
         )
         
