@@ -24,7 +24,8 @@ function App() {
       </header>
       <HelloWord></HelloWord>
       <HelloMessage name="Elvis"/>
-      <Name lastname="Batzibal"/>
+      <Name lastname="Batzibal"  />
+
     </div>
   );
 }

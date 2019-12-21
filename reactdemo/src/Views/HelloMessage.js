@@ -1,7 +1,13 @@
-import React from 'react';
+import React,{Component} from 'react';
 
 
-export default class HelloMessage extends React.Component{
+export default class HelloMessage extends Component{
+
+    alertName(a)
+    {
+        alert(a);
+    }
+
 
     render()
     {
@@ -10,7 +16,12 @@ export default class HelloMessage extends React.Component{
         return (
             <div>
                 Bienvenido,<br/> Nombre: {name}
+                <div>
+                    <button onClick={()=>this.alertName(name)}>Click Me</button>
+               </div>
             </div>
+           
+            
         )
         
     }
